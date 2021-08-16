@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Tag, Flex, Heading, Image } from '@saltswap/uikit'
+import { Tag, Flex, Heading, Image } from '@sunswap/sunswap-finance-uikit'
 
 export interface ExpandableSectionProps {
   lpLabel?: string

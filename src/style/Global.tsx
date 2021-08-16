@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
-import { SaltTheme } from '@saltswap/uikit'
+import { SaltTheme } from '@sunswap/sunswap-finance-uikit'
 
 declare module 'styled-components' {
   /* eslint-disable @typescript-eslint/no-empty-interface */

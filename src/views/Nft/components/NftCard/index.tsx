@@ -11,7 +11,7 @@ import {
   Text,
   CardFooter,
   useModal,
-} from '@saltswap/uikit'
+} from '@sunswap/sunswap-finance-uikit'
 import useI18n from 'hooks/useI18n'
 import { Nft } from 'config/constants/types'
 import InfoRow from '../InfoRow'

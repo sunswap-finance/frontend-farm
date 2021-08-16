@@ -1,5 +1,5 @@
 import React from 'react'
-import { Heading, Card, CardBody } from '@saltswap/uikit'
+import { Heading, Card, CardBody } from '@sunswap/sunswap-finance-uikit'
 import useI18n from 'hooks/useI18n'
 import HistoryChart from './HistoryChart'
 

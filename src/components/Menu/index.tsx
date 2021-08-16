@@ -4,7 +4,7 @@ import { allLanguages } from 'config/localisation/languageCodes'
 import { LanguageContext } from 'contexts/Localisation/languageContext'
 import useTheme from 'hooks/useTheme'
 import { usePriceSaltBusd } from 'state/hooks'
-import { Menu as UikitMenu } from '@saltswap/uikit'
+import { Menu as UikitMenu } from '@sunswap/sunswap-finance-uikit'
 import config from './config'
 
 const Menu = (props) => {

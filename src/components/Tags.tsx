@@ -1,5 +1,5 @@
 import React from 'react'
-import { Tag, VerifiedIcon, CommunityIcon, BinanceIcon } from '@saltswap/uikit'
+import { Tag, VerifiedIcon, CommunityIcon, BinanceIcon } from '@sunswap/sunswap-finance-uikit'
 
 const RiskTag = ({ risk }) => (
   <Tag variant={risk >= 3 ? 'failure' : 'success'} outline startIcon={<VerifiedIcon />}>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Modal } from '@saltswap/uikit'
+import { Button, Modal } from '@sunswap/sunswap-finance-uikit'
 import ModalActions from 'components/ModalActions'
 import styled from 'styled-components'
 import useI18n from 'hooks/useI18n'

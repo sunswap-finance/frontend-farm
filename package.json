@@ -29,7 +29,7 @@
     "@ethersproject/abi": "^5.0.7",
     "@material-ui/core": "^4.11.3",
     "@reduxjs/toolkit": "^1.5.0",
-    "@saltswap/uikit": "git+https://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:x-oauth-basic@github.com/sunswap-finance/sunswap-uikit.git",
+    "@sunswap/sunswap-finance-uikit": "^1.2.32",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "@types/react-router-dom": "^5.1.5",

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading, CardBody, CardFooter, SaltRoundIcon, TicketRound } from '@saltswap/uikit'
+import { Heading, CardBody, CardFooter, SaltRoundIcon, TicketRound } from '@sunswap/sunswap-finance-uikit'
 import useI18n from 'hooks/useI18n'
 import { DataResponse } from 'utils/getLotteryRoundData'
 import LotteryCardHeading from '../LotteryCardHeading'

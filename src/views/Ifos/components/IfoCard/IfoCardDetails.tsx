@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import BigNumber from 'bignumber.js'
-import { Text, LinkExternal } from '@saltswap/uikit'
+import { Text, LinkExternal } from '@sunswap/sunswap-finance-uikit'
 import useI18n from 'hooks/useI18n'
 
 export interface IfoCardDetailsProps {

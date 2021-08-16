@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { ChevronDownIcon, ChevronUpIcon, Text } from '@saltswap/uikit'
+import { ChevronDownIcon, ChevronUpIcon, Text } from '@sunswap/sunswap-finance-uikit'
 
 export interface ExpandableSectionButtonProps {
   onClick?: () => void
