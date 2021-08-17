@@ -44,8 +44,8 @@ const farms: FarmConfig[] = [
     isTokenOnly: true,
     lpSymbol: 'SUN',
     lpAddresses: {
-      97: '0x443eF8083f1b3C882C10C3A1A21645c2aE720c94',
-      56: '0x443eF8083f1b3C882C10C3A1A21645c2aE720c94',
+      97: '0xe5d2A6b132Cf96d58B1342A3eB7b743f8b9843c9',
+      56: '0xe5d2A6b132Cf96d58B1342A3eB7b743f8b9843c9',
     },
     tokenSymbol: 'SUN',
     tokenAddresses: {
@@ -173,8 +173,8 @@ const farms: FarmConfig[] = [
       97: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
       56: '0xe9e7cea3dedca5984780bafc599bd69add087d56',
     },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
     isMasterChef: true,
   },
   {
@@ -191,8 +191,8 @@ const farms: FarmConfig[] = [
       97: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
       56: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
     },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
+    quoteTokenSymbol: QuoteToken.ETH,
+    quoteTokenAdresses: contracts.eth,
     isMasterChef: true,
   },
   {
@@ -209,8 +209,8 @@ const farms: FarmConfig[] = [
       97: '0x55d398326f99059ff775485246999027b3197955',
       56: '0x55d398326f99059ff775485246999027b3197955',
     },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
     isMasterChef: true,
   },
 ].filter((f) => f.lpAddresses[CHAIN_ID])
