@@ -21,15 +21,15 @@ export type DataResponse = {
  * Get data for a specific lottery
  */
 const getLotteryRoundData = async (lotteryNumber: number): Promise<DataResponse> => {
-  try {
+  // try {
     const response = await fetch(`https://saltswap-api.vercel.app/api/singleLottery?lotteryNumber=${lotteryNumber}`)
     // const response = await fetch(`http://localhost:3000/api/singleLottery?lotteryNumber=${lotteryNumber}`)
     const data = await response.json()
 
     return data
-  } catch (error) {
-    throw new Error(error)
-  }
+  // } catch (error) {
+  //   throw new Error(error)
+  // }
 }
 
 export default getLotteryRoundData
